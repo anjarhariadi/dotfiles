@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
-
 set -e
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
+
 # Ambil daftar config yang sesuai pola
-configs=(starship*.toml)
+configs=(*.toml)
 
 # Validasi keberadaan file
 if [ ${#configs[@]} -eq 0 ]; then
