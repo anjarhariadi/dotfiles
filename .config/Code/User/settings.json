@@ -1,0 +1,94 @@
+{
+  // Window Layouting
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "window.menuBarVisibility": "toggle",
+  "window.commandCenter": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "everforest.darkContrast": "hard",
+  "everforest.darkWorkbench": "high-contrast",
+  "editor.minimap.enabled": false,
+  "search.searchOnType": false,
+  "editor.codeLens": false,
+  "editor.renderLineHighlight": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.iconTheme": "vscode-seedling-icon-theme-plus",
+  "workbench.productIconTheme": "material-product-icons",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.lineHeight": 20,
+  "editor.cursorBlinking": "expand",
+
+  // Editor Utils
+  "editor.formatOnSave": true,
+  "editor.mouseWheelZoom": true,
+  "terminal.integrated.gpuAcceleration": "on",
+  "explorer.confirmDragAndDrop": false,
+  "editor.matchBrackets": "never",
+  "editor.occurrencesHighlight": "off",
+  "files.insertFinalNewline": false,
+  "breadcrumbs.enabled": false,
+
+  // Codeium
+  "codeium.enableConfig": {
+    "*": false,
+    "prisma": true
+  },
+
+  // Hide Modules Folder
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/flutter/ephemeral": true,
+    "**/Flutter/ephemeral": true,
+    "**/.symlinks": true,
+    "**/.plugin_symlinks": true,
+    "**/node_modules": true,
+    "**/.venv": true,
+    "**/venv": true
+  },
+
+  // Languange Specific
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.diagnostic.vulncheck": "Off",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "dart.flutterCreatePlatforms": ["android"],
+  "notebook.formatOnSave.enabled": true,
+  "notebook.markup.fontFamily": "Libertinus Serif",
+  "notebook.find.filters": {
+    "markupSource": true,
+    "markupPreview": true,
+    "codeSource": true,
+    "codeOutput": true
+  },
+  "jupyter.enableKernelCompletions": false,
+  "notebook.consolidatedOutputButton": true,
+  "workbench.editor.centeredLayoutFixedWidth": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.colorTheme": "Better One Dark Vivid"
+}
