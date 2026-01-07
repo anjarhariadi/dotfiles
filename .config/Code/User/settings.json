@@ -12,13 +12,14 @@
   "search.searchOnType": false,
   "editor.codeLens": false,
   "editor.renderLineHighlight": "none",
-  "workbench.activityBar.location": "top",
+  "workbench.activityBar.location": "hidden",
   "workbench.iconTheme": "vscode-seedling-icon-theme-plus",
   "workbench.productIconTheme": "material-product-icons",
   "editor.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "editor.lineHeight": 20,
   "editor.cursorBlinking": "expand",
+  "workbench.colorTheme": "Better One Dark Vivid",
 
   // Editor Utils
   "editor.formatOnSave": true,
@@ -32,7 +33,7 @@
 
   // Codeium
   "codeium.enableConfig": {
-    "*": false,
+    "*": true,
     "prisma": true
   },
 
@@ -54,6 +55,9 @@
 
   // Languange Specific
   "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -83,12 +87,5 @@
   },
   "jupyter.enableKernelCompletions": false,
   "notebook.consolidatedOutputButton": true,
-  "workbench.editor.centeredLayoutFixedWidth": true,
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  },
-  "workbench.colorTheme": "Better One Dark Vivid"
+  "workbench.editor.centeredLayoutFixedWidth": true
 }

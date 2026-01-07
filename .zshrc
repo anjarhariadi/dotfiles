@@ -38,6 +38,8 @@ alias c=clear
 alias e=exit
 alias v=nvim
 
+alias co="code . && exit"
+
 alias venv-on="source ~/Dev/SDK/ds-venv/bin/activate"
 alias themes="~/dotfiles/.config/starship-themes/select-starship-config.sh"
 
