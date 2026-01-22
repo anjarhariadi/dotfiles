@@ -101,10 +101,11 @@ ForegroundVisited=124,183,255
 [General]
 ColorScheme=nordic-bluish
 Name=Andromeda
+TitlebarIsAccentColored=false
 shadeSortColumn=true
 
 [KDE]
-contrast=4
+contrast=9
 
 [WM]
 activeBackground=47,52,63

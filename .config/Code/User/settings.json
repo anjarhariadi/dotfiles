@@ -2,7 +2,6 @@
   // Window Layouting
   "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
-  "window.menuBarVisibility": "toggle",
   "window.commandCenter": false,
   "chat.commandCenter.enabled": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
@@ -12,7 +11,7 @@
   "search.searchOnType": false,
   "editor.codeLens": false,
   "editor.renderLineHighlight": "none",
-  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "top",
   "workbench.iconTheme": "vscode-seedling-icon-theme-plus",
   "workbench.productIconTheme": "material-product-icons",
   "editor.fontFamily": "JetBrainsMono Nerd Font",
@@ -30,6 +29,7 @@
   "editor.occurrencesHighlight": "off",
   "files.insertFinalNewline": false,
   "breadcrumbs.enabled": false,
+  "window.menuBarVisibility": "compact",
 
   // Codeium
   "codeium.enableConfig": {
