@@ -5,11 +5,8 @@
   "window.commandCenter": false,
   "chat.commandCenter.enabled": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "everforest.darkContrast": "hard",
-  "everforest.darkWorkbench": "high-contrast",
   "editor.minimap.enabled": false,
   "search.searchOnType": false,
-  "editor.codeLens": false,
   "editor.renderLineHighlight": "none",
   "workbench.activityBar.location": "top",
   "workbench.iconTheme": "vscode-seedling-icon-theme-plus",
@@ -18,7 +15,7 @@
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "editor.lineHeight": 20,
   "editor.cursorBlinking": "expand",
-  "workbench.colorTheme": "Better One Dark Vivid",
+  "workbench.colorTheme": "Kanagawa",
 
   // Editor Utils
   "editor.formatOnSave": true,
@@ -31,10 +28,13 @@
   "breadcrumbs.enabled": false,
   "window.menuBarVisibility": "compact",
 
+  // Disable default VSCode AI
+  "chat.disableAIFeatures": true,
+
   // Codeium
   "codeium.enableConfig": {
     "*": true,
-    "prisma": true
+    "prisma": true,
   },
 
   // Hide Modules Folder
@@ -50,22 +50,22 @@
     "**/.plugin_symlinks": true,
     "**/node_modules": true,
     "**/.venv": true,
-    "**/venv": true
+    "**/venv": true,
   },
 
   // Languange Specific
   "javascript.updateImportsOnFileMove.enabled": "prompt",
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "go.diagnostic.vulncheck": "Off",
   "[dart]": {
@@ -74,7 +74,7 @@
     "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
+    "editor.wordBasedSuggestions": "off",
   },
   "dart.flutterCreatePlatforms": ["android"],
   "notebook.formatOnSave.enabled": true,
@@ -83,9 +83,9 @@
     "markupSource": true,
     "markupPreview": true,
     "codeSource": true,
-    "codeOutput": true
+    "codeOutput": true,
   },
   "jupyter.enableKernelCompletions": false,
   "notebook.consolidatedOutputButton": true,
-  "workbench.editor.centeredLayoutFixedWidth": true
+  "workbench.editor.centeredLayoutFixedWidth": true,
 }
