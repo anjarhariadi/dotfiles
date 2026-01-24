@@ -15,7 +15,6 @@
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "editor.lineHeight": 20,
   "editor.cursorBlinking": "expand",
-  "workbench.colorTheme": "Kanagawa",
 
   // Editor Utils
   "editor.formatOnSave": true,

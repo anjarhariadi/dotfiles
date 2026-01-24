@@ -18,8 +18,8 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/Dev/SDK/flutter/bin
 #export PATH=$PATH:$HOME/Dev/SDK/typst-x86_64-unknown-linux-musl
 
-#export JAVA_HOME=/home/alphaleonis/.jdks/corretto-17.0.15
-#export PATH=$JAVA_HOME/bin:$PATH
+export JAVA_HOME=/home/alphaleonis/.jdks/ms-17.0.16
+export PATH=$JAVA_HOME/bin:$PATH
 
 eval "$(starship init zsh)"
 
