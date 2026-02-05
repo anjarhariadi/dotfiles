@@ -11,10 +11,11 @@
   "workbench.activityBar.location": "top",
   "workbench.iconTheme": "vscode-seedling-icon-theme-plus",
   "workbench.productIconTheme": "material-product-icons",
-  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontFamily": "GeistMono Nerd Font",
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "editor.lineHeight": 20,
   "editor.cursorBlinking": "expand",
+  "editor.fontSize": 13,
 
   // Editor Utils
   "editor.formatOnSave": true,
@@ -34,6 +35,7 @@
   "codeium.enableConfig": {
     "*": true,
     "prisma": true,
+    "yaml": false
   },
 
   // Hide Modules Folder
@@ -87,4 +89,5 @@
   "jupyter.enableKernelCompletions": false,
   "notebook.consolidatedOutputButton": true,
   "workbench.editor.centeredLayoutFixedWidth": true,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
 }

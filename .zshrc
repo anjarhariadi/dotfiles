@@ -10,23 +10,18 @@ else
     compinit -C
 fi
 
+# Path Initialization
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-
 export ZSH="$HOME/.oh-my-zsh"
-
-export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$HOME/Dev/SDK/go/bin
 export PATH=$PATH:$HOME/Dev/SDK/flutter/bin
 #export PATH=$PATH:$HOME/Dev/SDK/typst-x86_64-unknown-linux-musl
-
 export JAVA_HOME=/home/alphaleonis/.jdks/ms-17.0.16
 export PATH=$JAVA_HOME/bin:$PATH
 
+
 eval "$(starship init zsh)"
-
-#SH_THEME="robbyrussell"
-
 plugins=(zsh-autosuggestions fast-syntax-highlighting)
-
 source $ZSH/oh-my-zsh.sh
 
 # Autosuggest settings
