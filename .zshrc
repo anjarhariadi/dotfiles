@@ -18,7 +18,7 @@ export PATH=$PATH:$HOME/Dev/SDK/flutter/bin
 #export PATH=$PATH:$HOME/Dev/SDK/typst-x86_64-unknown-linux-musl
 export JAVA_HOME=/home/alphaleonis/.jdks/ms-17.0.16
 export PATH=$JAVA_HOME/bin:$PATH
-
+export OLLAMA_HOST=0.0.0.0
 
 eval "$(starship init zsh)"
 plugins=(zsh-autosuggestions fast-syntax-highlighting)
@@ -62,3 +62,6 @@ if [ -d "$FNM_PATH" ]; then
   export PATH="/home/alphaleonis/.local/share/fnm:$PATH"
   eval "`fnm env`"
 fi
+
+# opencode
+export PATH=/home/alphaleonis/.opencode/bin:$PATH
