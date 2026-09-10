@@ -3,26 +3,26 @@
   {
     "key": "ctrl+shift+=",
     "command": "editor.action.smartSelect.grow",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "ctrl+shift+-",
     "command": "editor.action.smartSelect.shrink",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "ctrl+shift+.",
     "command": "editor.action.selectToBracket",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "ctrl+alt+right",
     "command": "editor.action.smartSelect.grow",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "ctrl+alt+left",
     "command": "editor.action.smartSelect.shrink",
-    "when": "editorTextFocus"
-  }
+    "when": "editorTextFocus",
+  },
 ]

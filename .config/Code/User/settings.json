@@ -11,8 +11,8 @@
   "workbench.activityBar.location": "top",
   "workbench.iconTheme": "vscode-seedling-icon-theme-plus",
   "workbench.productIconTheme": "material-product-icons",
-  "editor.fontFamily": "JetBrainsMono Nerd Font",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontFamily": "ZedMono Nerd Font",
+  "terminal.integrated.fontFamily": "ZedMono Nerd Font",
   "editor.lineHeight": 20,
   "editor.cursorBlinking": "expand",
   "editor.fontSize": 13,
@@ -27,6 +27,9 @@
   "files.insertFinalNewline": false,
   "breadcrumbs.enabled": false,
   "window.menuBarVisibility": "compact",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.bracketPairs": false,
+  "editor.guides.highlightActiveBracketPair": false,
 
   // Disable default VSCode AI
   "chat.disableAIFeatures": true,
@@ -91,4 +94,16 @@
   "workbench.editor.centeredLayoutFixedWidth": true,
   "jupyter.interactiveWindow.textEditor.executeSelection": true,
   "update.showReleaseNotes": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
 }
