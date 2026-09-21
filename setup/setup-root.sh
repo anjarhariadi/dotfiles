@@ -13,8 +13,8 @@ max_parallel_downloads=10
 fastestmirror=True
 EOF
 
-echo "==> system update"
-dnf update -y
+# echo "==> system update"
+# dnf update -y
 
 echo "==> swappiness"
 printf 'vm.swappiness=10\n' > /etc/sysctl.d/99-swappiness.conf
