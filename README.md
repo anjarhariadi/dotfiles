@@ -9,6 +9,7 @@ This config is include:
 - ZSH as shell using [Oh My Zsh](https://ohmyz.sh/) and [Starship](https://starship.rs/)
 - My Fonts
 - My Wallpaper
+- [Obsidian](https://obsidian.md/), [OnlyOffice](https://www.onlyoffice.com/), and [Zotero](https://www.zotero.org/) via `setup/setup-additional-apps.sh`
 
 ### Others Consideration Tools
 
