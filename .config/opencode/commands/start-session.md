@@ -1,5 +1,5 @@
 ---
-description: Prime agent with codebase understanding
+description: Start agent session with codebase understanding
 ---
 
 # Prime: Load Project Context
