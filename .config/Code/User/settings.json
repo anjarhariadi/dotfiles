@@ -16,6 +16,7 @@
   "editor.lineHeight": 20,
   "editor.cursorBlinking": "expand",
   "editor.fontSize": 13,
+  "security.workspace.trust.enabled": false,
 
   // Editor Utils
   "editor.formatOnSave": true,
@@ -69,7 +70,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.typescript-language-features",
   },
   "go.diagnostic.vulncheck": "Off",
   "[dart]": {
@@ -80,7 +81,7 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off",
   },
-  "dart.flutterCreatePlatforms": ["android"],
+  "dart.flutterCreatePlatforms": ["android", "ios"],
   "notebook.formatOnSave.enabled": true,
   "notebook.markup.fontFamily": "Libertinus Serif",
   "notebook.find.filters": {
@@ -106,4 +107,5 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
+  "workbench.colorTheme": "Dark Modern",
 }
