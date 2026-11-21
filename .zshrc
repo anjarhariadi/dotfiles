@@ -37,6 +37,7 @@ alias co="code . && exit"
 
 alias venv-on="source ~/Dev/SDK/ds-venv/bin/activate"
 alias themes="~/dotfiles/.config/starship-themes/select-starship-config.sh"
+alias sync-backupable="cd ~/Backupable && stow ."
 
 alias ga="git add ."
 alias gs="git status"
