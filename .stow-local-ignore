@@ -23,3 +23,12 @@ CVS
 ^/COPYING
 ^/ss.\*
 ^starship-themes$
+
+^/kactivitymanagerdrc
+^/kactivitymanagerd-statsrc
+^/kdeglobals
+^/kglobalshortcutsrc
+^/kscreenlockerrc
+^/kwinrc
+^/plasma-org\.kde\.plasma\.desktop-appletsrc
+^/plasmashellrc

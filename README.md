@@ -10,6 +10,17 @@ This config is include:
 - My Fonts
 - My Wallpaper
 - [Obsidian](https://obsidian.md/), [OnlyOffice](https://www.onlyoffice.com/), and [Zotero](https://www.zotero.org/) via `setup/setup-additional-apps.sh`
+- KDE Plasma panel, shortcuts, KWin/Krohnkite, launcher and theme via `setup/setup-kde.sh`
+
+### KDE config
+
+KDE live config files are kept as **regular files**, not symlinks into this repo. Storing Plasma/KWin config as stow symlinks caused wallpaper and activity state to break, so this repo keeps sanitized templates in `setup/kde/` and merges them into `~/.config/` with `kwriteconfig6`.
+
+- `setup/setup-kde.sh` installs Krohnkite and nokara, then restores the config. Use `--config-only` to skip plugin installation.
+- The panel/widget layout is installed only when missing; all other keys are merged and existing changes are kept.
+- `setup/export-kde-config.sh` refreshes the templates from the current live config after changing things in KDE settings.
+- Wallpaper, current activity, screen mapping and geometry are intentionally not versioned.
+- Re-login after restoring so KWin and global shortcuts reload.
 
 ### Others Consideration Tools
 
